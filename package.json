@@ -1,0 +1,19 @@
+{
+  "name": "pure-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A clear & colorful syntax theme for Atom.",
+  "keywords": [
+    "pure",
+    "clear",
+    "colorful",
+    "dark",
+    "practical",
+    "syntax"
+  ],
+  "repository": "https://github.com/nkpfstr/pure-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

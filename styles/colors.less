@@ -1,0 +1,34 @@
+
+/* COLOR DEFINITIONS */
+
+// Dependencies
+@import 'vendor/open-color';
+
+// Config
+@syntax-hue:          220;
+@syntax-saturation:   0%;
+@syntax-brightness:   24%;
+
+// Monochrome
+@mono-1: hsl(@syntax-hue, 0%, 92%);
+@mono-2: hsl(@syntax-hue, 0%, 72%);
+@mono-3: hsl(@syntax-hue, 0%, 48%);
+
+// Colors
+@hue-1:   @mono-1;
+@hue-2:   @mono-1;
+@hue-3:   @mono-1;
+@hue-4:   @mono-1;
+
+@hue-5:   @mono-1;
+@hue-5-2: @mono-1;
+
+@hue-6:   @mono-1;
+@hue-6-2: @mono-1;
+
+// Base colors
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: @mono-3;
+@syntax-guide:  fade(@syntax-fg, 10%);
+@syntax-accent: hsl(@syntax-hue, 100%, 76% );
