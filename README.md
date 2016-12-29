@@ -1,7 +1,7 @@
 
-![Title](https://raw.githubusercontent.com/nkpfstr/pure-syntax/master/art/title.png)
+![Title](https://media.githubusercontent.com/nkpfstr/pure-syntax/master/art/title.png)
 
-![Example](https://raw.githubusercontent.com/nkpfstr/pure-syntax/master/art/example.png)
+![Example](https://media.githubusercontent.com/nkpfstr/pure-syntax/master/art/example.png)
 
 > The font used in the screenshot is [Office Code Pro](https://github.com/nathco/Office-Code-Pro).
 
