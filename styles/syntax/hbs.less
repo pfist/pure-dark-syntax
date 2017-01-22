@@ -1,0 +1,28 @@
+
+/* SYNTAX: HANDLEBARS/MUSTACHE */
+
+.syntax--text.syntax--handlebars,
+.syntax--text.syntax--mustache {
+  .syntax--template {
+    // {{#if handlebars}}
+    // ^^              ^^
+    .syntax--entity.syntax--tag.syntax--name {
+      color: @mono-3;
+    }
+    // {{#if handlebars}}
+    //   ^
+    .syntax--punctuation.syntax--block {
+      color: @mono-3;
+    }
+    // {{#if handlebars}}
+    //    ^^
+    .syntax--entity.syntax--name {
+      color: @hue-5;
+    }
+  }
+  // {{#if handlebars}}
+  //       ^^^^^^^^^^
+  .syntax--meta.syntax--tag.syntax--template {
+    color: @hue-1;
+  }
+}
