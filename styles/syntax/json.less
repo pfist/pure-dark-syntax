@@ -1,26 +1,26 @@
 
 /* SYNTAX: JSON */
 
-.source.json {
-  .punctuation {
+.syntax--source.syntax--json {
+  .syntax--punctuation {
     color: @mono-3;
   }
-  .meta.structure.dictionary.json {
-    & > .string.quoted.json {
-      & > .punctuation.string {
+  .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+    & > .syntax--string.syntax--quoted.syntax--json {
+      & > .syntax--punctuation.syntax--string {
         // color: @mono-3;
       }
       color: @hue-1;
     }
   }
 
-  .meta.structure.dictionary.json, .meta.structure.array.json {
-    & > .value.json > .string.quoted.json,
-    & > .value.json > .string.quoted.json > .punctuation {
+  .syntax--meta.syntax--structure.syntax--dictionary.syntax--json, .syntax--meta.syntax--structure.syntax--array.syntax--json {
+    & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+    & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
       color: @hue-4;
     }
 
-    & > .constant.language.syntax--json {
+    & > .syntax--constant.syntax--language.syntax--json {
       color: @hue-1;
     }
   }

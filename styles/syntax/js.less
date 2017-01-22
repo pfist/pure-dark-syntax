@@ -1,24 +1,24 @@
 
 /* SYNTAX: JAVASCRIPT */
 
-.source.js {
-  .keyword.operator {
+.syntax--source.syntax--js {
+  .syntax--keyword.syntax--operator {
     color: @hue-1;
 
     // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
     // search "instanceof" for location
-    &.delete,
-    &.in,
-    &.of,
-    &.instanceof,
-    &.new,
-    &.typeof,
-    &.void {
+    &.syntax--delete,
+    &.syntax--in,
+    &.syntax--of,
+    &.syntax--instanceof,
+    &.syntax--new,
+    &.syntax--typeof,
+    &.syntax--void {
       color: @hue-3;
     }
   }
-  .punctuation,
-  .meta.brace {
+  .syntax--punctuation,
+  .syntax--meta.syntax--brace {
     color: @mono-3;
   }
 }
