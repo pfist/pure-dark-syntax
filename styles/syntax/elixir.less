@@ -1,15 +1,11 @@
 
 /* SYNTAX: ELIXIR */
 .syntax--source.syntax--elixir {
-  .syntax--regexp.syntax--section,
-  .syntax--regexp.syntax--string,
-  .syntax--constant.syntax--language,
-  .syntax--constant.syntax--numeric,
   .syntax--constant.syntax--definition,
-  .syntax--function,
-  .syntax--quoted{
+  .syntax--embedded.syntax--punctuation,
+  .syntax--function {
     color: @hue-1;
-    > .syntax--punctuation{
+    .syntax--empty {
       color: @hue-1;
     }
   }
@@ -17,30 +13,36 @@
   .syntax--variable.syntax--anonymous{
     color: @hue-3;
   }
-  .syntax--variable.syntax--constant,
-  .syntax--entity.syntax--name.syntax--type {
-    color: @hue-4;
-  }
   .syntax--keyword.syntax--special-method,
-  .syntax--embedded.syntax--section.syntax--punctuation,
-  .syntax--embedded.syntax--source.syntax--empty,
   .syntax--readwrite.syntax--module,
   .syntax--storage.syntax--type{
-    color: @hue-5;
+    color: @hue-4;
     > .syntax--punctuation {
+      color: @hue-4;
+    }
+  }
+  .syntax--regexp.syntax--section,
+  .syntax--regexp.syntax--string,
+  .syntax--constant.syntax--language,
+  .syntax--quoted{
+    color: @hue-5;
+    > .syntax--punctuation{
       color: @hue-5;
     }
   }
   .syntax--separator,
-  .syntax--keyword.syntax--operator  {
+  .syntax--variable.syntax--constant,
+  .syntax--entity.syntax--name.syntax--type,
+  .syntax--constant.syntax--numeric {
     color: @hue-6;
   }
   .syntax--array,
   .syntax--scope,
-  .syntax--section {
+  .syntax--section,
+  .syntax--keyword.syntax--operator {
     color: @mono-2;
   }
-  .syntax--source.syntax--embedded.syntax--source {
+  .syntax--source {
     color: @mono-1;
   }
 }
