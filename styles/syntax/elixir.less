@@ -1,0 +1,46 @@
+
+/* SYNTAX: ELIXIR */
+.syntax--source.syntax--elixir {
+  .syntax--regexp.syntax--section,
+  .syntax--regexp.syntax--string,
+  .syntax--constant.syntax--language,
+  .syntax--constant.syntax--numeric,
+  .syntax--constant.syntax--definition,
+  .syntax--function,
+  .syntax--quoted{
+    color: @hue-1;
+    > .syntax--punctuation{
+      color: @hue-1;
+    }
+  }
+  .syntax--variable.syntax--definition,
+  .syntax--variable.syntax--anonymous{
+    color: @hue-3;
+  }
+  .syntax--variable.syntax--constant,
+  .syntax--entity.syntax--name.syntax--type {
+    color: @hue-4;
+  }
+  .syntax--keyword.syntax--special-method,
+  .syntax--embedded.syntax--section.syntax--punctuation,
+  .syntax--embedded.syntax--source.syntax--empty,
+  .syntax--readwrite.syntax--module,
+  .syntax--storage.syntax--type{
+    color: @hue-5;
+    > .syntax--punctuation {
+      color: @hue-5;
+    }
+  }
+  .syntax--separator,
+  .syntax--keyword.syntax--operator  {
+    color: @hue-6;
+  }
+  .syntax--array,
+  .syntax--scope,
+  .syntax--section {
+    color: @mono-2;
+  }
+  .syntax--source.syntax--embedded.syntax--source {
+    color: @mono-1;
+  }
+}
