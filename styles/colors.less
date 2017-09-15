@@ -1,34 +1,31 @@
-
-/* COLOR DEFINITIONS */
+/* COLOR PALETTE */
 
 // Dependencies
 @import 'vendor/open-color';
 
-// Config
-@syntax-hue:          240;
-@syntax-saturation:   24%;
-@syntax-brightness:   20%;
+// Base color
+@syntax-hue: 240;
+@syntax-saturation: 24%;
+@syntax-brightness: 20%;
 
-// Monochrome
-@mono-1: hsl(@syntax-hue,  0%, 96%);
+// Monochrome scale
+@mono-1: hsl(@syntax-hue, 24%, 96%);
 @mono-2: hsl(@syntax-hue, 24%, 72%);
-@mono-3: hsl(@syntax-hue, 12%, 48%);
+@mono-3: hsl(@syntax-hue, 24%, 48%);
 
-// Colors
-@hue-1:   @oc-blue-3;
-@hue-2:   @mono-1;
-@hue-3:   @oc-grape-3;
-@hue-4:   @oc-yellow-3;
+// Hues
+@hue-1: @oc-blue-3;
+@hue-2: @oc-cyan-3;
+@hue-3: @oc-grape-3;
+@hue-4: @oc-yellow-3;
+@hue-5: @oc-pink-3;
+@hue-6: @oc-red-3;
+@hue-7: @oc-orange-3;
+@hue-8: @oc-teal-3;
 
-@hue-5:   @oc-pink-4;
-@hue-5-2: @mono-3;
-
-@hue-6:   @oc-orange-4;
-@hue-6-2: @mono-1;
-
-// Base colors
-@syntax-fg:     @mono-1;
-@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+// Definitions
+@syntax-fg: @mono-1;
+@syntax-bg: hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
 @syntax-gutter: @mono-3;
-@syntax-guide:  fade(@syntax-fg, 10%);
-@syntax-accent: hsl(@syntax-hue, 100%, 76% );
+@syntax-guide: fade(@syntax-fg, 10%);
+@syntax-accent: hsl(@syntax-hue, 100%, 76%);
