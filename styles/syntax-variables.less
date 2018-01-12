@@ -1,36 +1,36 @@
 /* SYNTAX VARIABLES */
 
-@import 'colors';
+@import 'palette';
 
-// General colors
+// General
 @syntax-text-color: @syntax-fg;
 @syntax-cursor-color: @syntax-accent;
 @syntax-selection-color: lighten(@syntax-background-color, 5%);
 @syntax-selection-flash-color: @syntax-accent;
 @syntax-background-color: @syntax-bg;
 
-// Guide colors
+// Guide
 @syntax-wrap-guide-color: @syntax-guide;
 @syntax-indent-guide-color: @syntax-guide;
 @syntax-invisible-character-color: @syntax-guide;
 
-// For find and replace markers
+// Find & Replace Markers
 @syntax-result-marker-color: fade(@syntax-accent, 24%);
 @syntax-result-marker-color-selected: @syntax-accent;
 
-// Gutter colors
+// Gutter
 @syntax-gutter-text-color: @syntax-gutter;
 @syntax-gutter-text-color-selected: @syntax-fg;
 @syntax-gutter-background-color: @syntax-bg; // unused
 @syntax-gutter-background-color-selected: darken(@syntax-bg, 2%);
 
-// Git colors - For git diff info. i.e. in the gutter
+// Git Diffs
 @syntax-color-renamed: hsl(208, 100%, 60%);
 @syntax-color-added: hsl(150, 60%, 54%);
 @syntax-color-modified: hsl(40, 60%, 70%);
 @syntax-color-removed: hsl(0, 70%, 60%);
 
-// For language entity colors
+// Language Entities
 @syntax-color-variable: @hue-5;
 @syntax-color-constant: @hue-7;
 @syntax-color-property: @syntax-fg;
