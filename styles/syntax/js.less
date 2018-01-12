@@ -2,10 +2,6 @@
 
 .syntax--source.syntax--js {
   .syntax--keyword.syntax--operator {
-    color: @hue-1;
-
-    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
-    // search "instanceof" for location
     &.syntax--delete,
     &.syntax--in,
     &.syntax--of,
@@ -16,8 +12,28 @@
       color: @hue-3;
     }
   }
-  .syntax--punctuation,
-  .syntax--meta.syntax--brace {
+
+  .syntax--punctuation {
+    &.syntax--bracket {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--brace,
+    &.syntax--period,
+    .syntax--comma {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--assignment {
     color: @mono-3;
+  }
+
+  .syntax--comparison,
+  .syntax--ternary,
+  .syntax--logical {
+    color: @hue-8;
   }
 }
