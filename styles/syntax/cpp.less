@@ -4,4 +4,30 @@
   .syntax--keyword.syntax--operator {
     color: @hue-3;
   }
+
+  .syntax--punctuation {
+    &.syntax--bracket,
+    &.syntax--terminator,
+    &.syntax--parameters {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--brace,
+    &.syntax--period,
+    &.syntax--comma {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--assignment {
+    color: @mono-3;
+  }
+
+  .syntax--comparison,
+  .syntax--ternary,
+  .syntax--logical {
+    color: @hue-8;
+  }
 }
