@@ -1,0 +1,35 @@
+/* SYNTAX: COFFEESCRIPT */
+
+.syntax--source.syntax--coffee {
+  .syntax--keyword.syntax--operator {
+    &.syntax--delete,
+    &.syntax--in,
+    &.syntax--of,
+    &.syntax--instanceof,
+    &.syntax--new,
+    &.syntax--typeof,
+    &.syntax--void {
+      color: @hue-3;
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--bracket {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--brace,
+    &.syntax--period,
+    &.syntax--comma {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--comparison,
+  .syntax--ternary,
+  .syntax--logical {
+    color: @hue-8;
+  }
+}
