@@ -1,0 +1,30 @@
+/* SYNTAX: CLOJURE */
+
+.syntax--source.syntax--clojure {
+  .syntax--punctuation {
+    &.syntax--bracket,
+    &.syntax--terminator,
+    &.syntax--expression {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--brace,
+    &.syntax--period,
+    &.syntax--comma,
+    &.syntax--symbol {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--assignment {
+    color: @mono-3;
+  }
+
+  .syntax--comparison,
+  .syntax--ternary,
+  .syntax--logical {
+    color: @hue-8;
+  }
+}
