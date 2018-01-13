@@ -4,7 +4,20 @@
   .syntax--entity.syntax--name.syntax--tag {
     color: @hue-3;
   }
-  .syntax--meta.syntax--tag {
-    color: @mono-3;
+  .syntax--meta {
+    &.syntax--tag.syntax--doctype {
+        color: @mono-2;
+    }
+
+    &.syntax--class {
+      color: @mono-1;
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--tag,
+    &.syntax--terminator {
+      color: @mono-3;
+    }
   }
 }
