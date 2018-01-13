@@ -1,10 +1,10 @@
 /* SYNTAX: CSS */
 
 .syntax--source.syntax--css {
-  // highlight properties/values if they are supported
   .syntax--property-name,
   .syntax--property-value {
     color: @mono-2;
+
     &.syntax--support {
       color: @mono-1;
     }
@@ -12,5 +12,24 @@
 
   .syntax--punctuation {
     color: @mono-3;
+  }
+
+  .syntax--hex {
+    color: @hue-2;
+  }
+
+  .syntax--entity {
+    &.syntax--tag {
+      color: @hue-3;
+    }
+
+    &.syntax--attribute-name {
+      &.syntax--class {
+        color: @hue-5;
+      }
+      &.syntax--id {
+        color: @hue-8;
+      }
+    }
   }
 }
