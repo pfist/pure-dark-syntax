@@ -13,6 +13,19 @@
   .syntax--keyword.syntax--operator.syntax--instanceof {
     color: @hue-3;
   }
+
+  .syntax--punctuation {
+    &.syntax--bracket,
+    &.syntax--terminator {
+      color: @mono-3;
+    }
+  }
+
+  .syntax--operator,
+  .syntax--comparison,
+  .syntax--logical {
+    color: @hue-8;
+  }
 }
 
 .syntax--source.syntax--java-properties {
