@@ -4,4 +4,11 @@
   .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
     color: inherit;
   }
+
+  .syntax--punctuation {
+    &.syntax--section:not(.syntax--embedded),
+    &.syntax--parameters {
+      color: @mono-3;
+    }
+  }
 }
