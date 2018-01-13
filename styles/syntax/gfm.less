@@ -5,7 +5,57 @@
     -webkit-font-smoothing: auto;
   }
 
-  .syntax--link .syntax--entity {
-    color: @hue-2;
+  // Headings
+  .syntax--heading {
+    &.syntax--marker {
+      color: @hue-3;
+    }
+    color: @hue-7;
+  }
+
+  // Bold
+  .syntax--bold {
+    color: @hue-4;
+  }
+
+  // Italic
+  .syntax--italic {
+    color: @hue-1;
+  }
+
+  // Lists
+  .syntax--list {
+    color: @hue-3;
+  }
+  // Blockquotes
+  .syntax--quote {
+    color: @hue-6;
+    .syntax--quote {
+      color: @mono-3;
+    }
+  }
+
+  // Links
+  .syntax--link {
+    color: @mono-3;
+    .syntax--entity {
+      color: @hue-2;
+    }
+    .syntax--underline {
+      color: @hue-5;
+      text-decoration: none;
+      border-bottom: 1px solid @mono-3;
+    }
+    .syntax--punctuation {
+      color: @mono-3;
+    }
+  }
+
+  // Tables
+  .syntax--table {
+    .syntax--pipe,
+    .syntax--border {
+      color: @mono-3;
+    }
   }
 }
