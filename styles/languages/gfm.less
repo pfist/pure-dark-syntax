@@ -59,3 +59,76 @@
     }
   }
 }
+
+// Markdown Preview
+.markdown-preview,
+.markdown-preview:not([data-use-github-style]) {
+  background-color: @syntax-background-color;
+  color: @mono-2;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: @mono-1;
+    font-weight: 700;
+  }
+
+  em,
+  strong {
+    color: @mono-2;
+  }
+
+  a {
+    color: @hue-3;
+  }
+
+  del {
+    color: @mono-3;
+  }
+
+  blockquote {
+    background-color: lighten(@syntax-background-color, 5%);
+    color: @mono-2;
+    border-color: @mono-3;
+
+    a {
+      color: @hue-3;
+    }
+  }
+
+  ul {
+    padding-left: 2rem;
+  }
+
+  code {
+    background-color: lighten(@syntax-background-color, 5%);
+    color: @mono-2;
+  }
+
+  table th,
+  table td {
+    border-color: @mono-3;
+  }
+
+  table th {
+    color: @mono-1;
+  }
+
+  hr {
+    border: 0;
+    border: 1px solid @mono-3;
+  }
+
+  kbd {
+    background-color: lighten(@syntax-background-color, 5%);
+    border-color: @mono-3;
+    color: @mono-1;
+  }
+
+  .editor {
+    background-color: lighten(@syntax-background-color, 5%);
+  }
+}
