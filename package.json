@@ -1,7 +1,7 @@
 {
   "name": "pure-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "A vibrant syntax theme for Atom.",
   "keywords": [
     "syntax",
