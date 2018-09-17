@@ -1,14 +1,12 @@
 /* SYNTAX: JSON */
 
 .syntax--source.syntax--json {
-  .syntax--punctuation {
+  .syntax--punctuation,
+  .syntax--quoted.syntax--punctuation {
     color: @mono-3;
   }
   .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
     & > .syntax--string.syntax--quoted.syntax--json {
-      & > .syntax--punctuation.syntax--string {
-        // color: @mono-3;
-      }
       color: @hue-3;
     }
   }
@@ -18,13 +16,16 @@
     & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
     &
       > .syntax--value.syntax--json
-      > .syntax--string.syntax--quoted.syntax--json
-      > .syntax--punctuation {
+      > .syntax--string.syntax--quoted.syntax--json {
       color: @hue-4;
     }
 
     & > .syntax--constant.syntax--language.syntax--json {
       color: @hue-5;
     }
+  }
+
+  .syntax--link {
+    color: @hue-2;
   }
 }
