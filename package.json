@@ -2,16 +2,17 @@
   "name": "pure-syntax",
   "theme": "syntax",
   "version": "0.3.0",
-  "description": "A clear & colorful syntax theme for Atom.",
+  "description": "A vibrant syntax theme for Atom.",
   "keywords": [
+    "syntax",
+    "theme",
     "pure",
-    "clear",
     "colorful",
     "dark",
-    "practical",
-    "syntax"
+    "vivid",
+    "vibrant"
   ],
-  "repository": "https://github.com/nkpfstr/pure-syntax",
+  "repository": "https://github.com/polymoon/pure-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
