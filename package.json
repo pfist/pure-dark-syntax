@@ -1,5 +1,5 @@
 {
-  "name": "pure-syntax",
+  "name": "pure-dark-syntax",
   "theme": "syntax",
   "version": "0.3.0",
   "description": "A vibrant syntax theme for Atom.",
@@ -12,9 +12,9 @@
     "vivid",
     "vibrant"
   ],
-  "repository": "https://github.com/polymoon/pure-syntax",
+  "repository": "https://github.com/polymoon/pure-dark-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.13.0 <2.0.0"
   }
 }
