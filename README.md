@@ -1,6 +1,8 @@
 
 ![Logo](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/logo.png)
 
+> Looking for the [light version?](https://github.com/polymoon/pure-light-syntax)
+
 # Examples
 ![Example Less](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/example-less.png)
 ![Example JS](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/example-js.png)
