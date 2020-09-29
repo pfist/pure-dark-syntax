@@ -1,12 +1,12 @@
 
-![Logo](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/logo.png)
+![Logo](https://raw.githubusercontent.com/pfist/pure-dark-syntax/master/assets/logo.png)
 
-> Looking for the [light version?](https://github.com/polymoon/pure-light-syntax)
+> Looking for the [light version?](https://github.com/pfist/pure-light-syntax)
 
 # Examples
-![Example Less](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/example-less.png)
-![Example JS](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/example-js.png)
-![Example HTML](https://media.githubusercontent.com/media/polymoon/pure-dark-syntax/master/assets/example-html.png)
+![Example Less](https://raw.githubusercontent.com/pfist/pure-dark-syntax/master/assets/example-less.png)
+![Example JS](https://raw.githubusercontent.com/pfist/pure-dark-syntax/master/assets/example-js.png)
+![Example HTML](https://raw.githubusercontent.com/pfist/pure-dark-syntax/master/assets/example-html.png)
 
 > The font used in the screenshots above is [Office Code Pro](https://github.com/nathco/Office-Code-Pro).
 
